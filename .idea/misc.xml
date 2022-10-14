@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects/Android/ECollectWaste/app/src/main/res/drawable-v24/route-48px.xml" value="0.3365" />
+        <entry key="..\:/Projects/Android/ECollectWaste/app/src/main/res/drawable/active_status.xml" value="0.184" />
+        <entry key="..\:/Projects/Android/ECollectWaste/app/src/main/res/drawable/done_status.xml" value="0.184" />
+        <entry key="..\:/Projects/Android/ECollectWaste/app/src/main/res/drawable/draft_status.xml" value="0.184" />
+        <entry key="..\:/Projects/Android/ECollectWaste/app/src/main/res/drawable/list_card.xml" value="0.1925" />
+        <entry key="..\:/Projects/Android/ECollectWaste/app/src/main/res/drawable/submitted_status.xml" value="0.184" />
+        <entry key="..\:/Projects/Android/ECollectWaste/app/src/main/res/drawable/white_background.xml" value="0.3365" />
+        <entry key="..\:/Projects/Android/ECollectWaste/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Projects/Android/ECollectWaste/app/src/main/res/layout/fragment_about.xml" value="0.33" />
+        <entry key="..\:/Projects/Android/ECollectWaste/app/src/main/res/layout/fragment_history.xml" value="0.3875" />
+        <entry key="..\:/Projects/Android/ECollectWaste/app/src/main/res/layout/fragment_home.xml" value="0.2303370786516854" />
+        <entry key="..\:/Projects/Android/ECollectWaste/app/src/main/res/layout/fragment_login.xml" value="0.33" />
+        <entry key="..\:/Projects/Android/ECollectWaste/app/src/main/res/layout/fragment_map.xml" value="0.3875" />
+        <entry key="..\:/Projects/Android/ECollectWaste/app/src/main/res/layout/fragment_on_going_schedules.xml" value="0.3875" />
+        <entry key="..\:/Projects/Android/ECollectWaste/app/src/main/res/layout/fragment_register.xml" value="0.33" />
+        <entry key="..\:/Projects/Android/ECollectWaste/app/src/main/res/layout/fragment_schedule.xml" value="0.33" />
+        <entry key="..\:/Projects/Android/ECollectWaste/app/src/main/res/layout/fragment_schedule_info.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

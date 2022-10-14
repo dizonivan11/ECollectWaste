@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".LoginFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="@dimen/layout_margin"
+                android:src="@drawable/ecollectwastelogo" />
+
+            <EditText
+                android:id="@+id/login_user"
+                android:layout_width="@dimen/form_field_width"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColor="@color/text_color"
+                android:hint="Username"
+                android:importantForAutofill="no"/>
+
+            <EditText
+                android:id="@+id/login_pass"
+                android:layout_width="@dimen/form_field_width"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/layout_margin_mini"
+                android:inputType="textPassword"
+                android:textColor="@color/text_color"
+                android:hint="Password"
+                android:importantForAutofill="no"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/layout_margin_mini"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/login_sign_in"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/layout_margin_mini"
+                    android:text="Login"/>
+
+                <Button
+                    android:id="@+id/login_sign_up"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/layout_margin_mini"
+                    android:text="Register"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/layout_header_button_margin"
+        android:paddingTop="@dimen/layout_status_bar_margin"
+        android:paddingEnd="@dimen/layout_header_button_margin"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/login_exit"
+            android:layout_width="@dimen/header_button_size"
+            android:layout_height="@dimen/header_button_size"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/baseline_close_36" />
+
+    </RelativeLayout>
+
+</FrameLayout>

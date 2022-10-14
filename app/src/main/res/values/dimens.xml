@@ -1,0 +1,20 @@
+<resources>
+    <dimen name="layout_status_bar_margin">48dp</dimen>
+    <dimen name="layout_header_button_margin">32dp</dimen>
+    <dimen name="header_button_size">32dp</dimen>
+    <dimen name="layout_margin_mini">12dp</dimen>
+    <dimen name="layout_margin_tiny">8dp</dimen>
+    <dimen name="layout_margin">24dp</dimen>
+    <dimen name="nav_icon_size">32dp</dimen>
+    <dimen name="nav_text_size">16sp</dimen>
+    <dimen name="home_kv_height">280dp</dimen>
+    <dimen name="home_card_width">180dp</dimen>
+    <dimen name="home_card_height">240dp</dimen>
+    <dimen name="home_card_radius">24dp</dimen>
+    <dimen name="home_supporting_image_height">240dp</dimen>
+    <dimen name="home_title">26sp</dimen>
+    <dimen name="home_heading">20sp</dimen>
+    <dimen name="schedule_info_heading">24sp</dimen>
+    <dimen name="form_field_width">280dp</dimen>
+    <dimen name="route_map_height">380dp</dimen>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "586152731597",
+    "firebase_url": "https://streamsides-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "streamsides",
+    "storage_bucket": "streamsides.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586152731597:android:75cc933341ab29f8661a84",
+        "android_client_info": {
+          "package_name": "com.ecw.ecollectwaste"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586152731597-rul123ebe2noumktliji5hn07klpbjna.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuEKEt28I7s__2jinM9qTBNbeXdD1byuk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586152731597-rul123ebe2noumktliji5hn07klpbjna.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

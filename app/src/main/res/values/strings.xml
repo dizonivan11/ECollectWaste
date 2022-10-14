@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">E-Collect Waste</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="page_home">Home</string>
+    <string name="page_schedule">Schedule</string>
+    <string name="page_history">History</string>
+    <string name="page_on_going_schedules">On-going Schedules</string>
+    <string name="page_about">About Us</string>
+
+    <string name="lorem1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor dignissim odio non auctor. Etiam luctus magna sit amet vulputate tempus. Curabitur cursus a dui sit amet ornare. Suspendisse rhoncus, felis a finibus accumsan, augue ex lobortis dolor, id mattis neque est eu felis. Praesent porttitor sit amet enim ut molestie. Praesent at tempor enim, id lobortis enim. Morbi ac pellentesque elit, a luctus augue. Cras dignissim elit ac erat eleifend, quis dapibus orci faucibus. Nulla imperdiet metus id quam tincidunt tristique. Mauris ac risus bibendum, sodales libero sed, posuere tortor. Pellentesque tempor venenatis neque, in maximus mauris ornare convallis.</string>
+    <string name="lorem2">Donec volutpat arcu purus, ac commodo ex finibus non. Suspendisse laoreet mi ac nisl congue, id accumsan arcu rutrum. Nam dapibus tempus magna sit amet pellentesque. Mauris rutrum at enim vel finibus. Etiam lobortis, lectus id sollicitudin semper, leo nisi aliquam justo, a pulvinar lorem eros ac ante. Aliquam posuere luctus ultrices. Nulla porta nibh ac finibus accumsan. Etiam sollicitudin mauris sed dui malesuada placerat. Sed accumsan augue leo. Quisque nunc magna, malesuada eget leo et, imperdiet interdum mi. Nam non tempus nulla. Nulla facilisi. Curabitur nec augue dapibus, egestas felis nec, blandit nisi. Nullam ex leo, dapibus eu bibendum dignissim, fermentum consectetur mauris. Proin cursus sit amet tellus sit amet pharetra. Proin consequat enim vel dui tempor euismod.</string>
+    <string name="lorem3">Mauris vitae tempor sem. Suspendisse potenti. Curabitur et rhoncus odio. Nulla molestie, ligula eget imperdiet efficitur, neque leo elementum augue, sit amet aliquam nibh nibh et ligula. Quisque a nunc risus. Pellentesque eleifend egestas tortor, quis pretium nibh interdum in. Sed quam nulla, congue sit amet rutrum vitae, tempus non tortor. Nam gravida eget risus sed feugiat. Donec eu condimentum orci, id molestie nunc. Aliquam efficitur, arcu molestie dignissim laoreet, massa dui cursus enim, non mattis diam purus et elit. Suspendisse potenti. Duis id tellus nisi. Nullam pellentesque, tortor eu rhoncus tincidunt, lorem erat sagittis metus, quis pellentesque magna diam sed lectus.</string>
+    <string name="home_client_schedule_heading">SCHEDULE NOW</string>
+    <string name="home_client_schedule_text">Schedule your waste collection now to get rid of your trash and garbage on your house or office!</string>
+    <string name="home_collector_schedule_heading">START COLLECTING NOW</string>
+    <string name="home_collector_schedule_text">Start collecting waste now and help people in need of waste management!</string>
+    <string name="home_user_app_heading">WASTE MANAGEMENT ON YOUR POCKET</string>
+    <string name="home_user_app_text">Our application will help you in your waste management problems whether you are a collector who wants to earn extra cash or a client who wants their waste to get rid of!</string>
+    <string name="schedule_auto_disclaimer">System will automatically selects a collector for you based on the preferred date</string>
+    <string name="app_disclaimer">This application was made for educational purposes only.</string>
+</resources>

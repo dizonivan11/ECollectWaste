@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".ScheduleInfoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/schedule_info_map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/route_map_height"
+            tools:context=".ScheduleCheckFragment" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="@dimen/layout_margin"
+                android:layout_marginEnd="@dimen/layout_margin">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/schedule_info_heading"
+                    android:textColor="@color/accent_color"
+                    android:layout_marginTop="@dimen/layout_margin"
+                    android:text="Schedule Info" />
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="@dimen/layout_margin"
+                    android:src="@drawable/outline_home_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/layout_margin_mini"
+                    android:textStyle="bold"
+                    android:textColor="@color/accent_color"
+                    android:text="Client Details" />
+
+                <TextView
+                    android:id="@+id/schedule_info_client_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No client found" />
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="@dimen/layout_margin"
+                    android:src="@drawable/delete_sweep_48px" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/layout_margin_mini"
+                    android:textStyle="bold"
+                    android:textColor="@color/accent_color"
+                    android:text="Collector Details" />
+
+                <TextView
+                    android:id="@+id/schedule_info_collector_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No collector available" />
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="@dimen/layout_margin"
+                    android:src="@drawable/route_48px" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/layout_margin_mini"
+                    android:textStyle="bold"
+                    android:textColor="@color/accent_color"
+                    android:text="Route Details" />
+
+                <TextView
+                    android:id="@+id/schedule_info_route_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fetching data" />
+
+                <LinearLayout
+                    android:id="@+id/schedule_info_draft_buttons"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/layout_margin_mini"
+                    android:visibility="gone"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/schedule_info_submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/layout_margin_mini"
+                        android:enabled="false"
+                        android:focusable="false"
+                        android:text="Submit"/>
+
+                    <Button
+                        android:id="@+id/schedule_info_delete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/layout_margin_mini"
+                        android:backgroundTint="@color/negative_button"
+                        android:enabled="false"
+                        android:focusable="false"
+                        android:text="Delete"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/schedule_info_active"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/layout_margin_mini"
+                    android:visibility="gone"
+                    android:enabled="false"
+                    android:focusable="false"
+                    android:text="Start"/>
+
+                <Button
+                    android:id="@+id/schedule_info_done"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/layout_margin_mini"
+                    android:visibility="gone"
+                    android:enabled="false"
+                    android:focusable="false"
+                    android:text="Mark As Done"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/layout_margin"
+                    android:layout_marginBottom="@dimen/layout_margin"
+                    android:textSize="12sp"
+                    android:textColor="@color/negative_button"
+                    android:text="* Map routes might be outdated" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/layout_header_button_margin"
+        android:paddingTop="@dimen/layout_status_bar_margin"
+        android:paddingEnd="@dimen/layout_header_button_margin"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/schedule_info_back"
+            android:layout_width="@dimen/header_button_size"
+            android:layout_height="@dimen/header_button_size"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/baseline_arrow_back_36" />
+
+        <Button
+            android:id="@+id/schedule_info_menu"
+            android:layout_width="@dimen/header_button_size"
+            android:layout_height="@dimen/header_button_size"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/baseline_menu_36" />
+
+    </RelativeLayout>
+
+</FrameLayout>
